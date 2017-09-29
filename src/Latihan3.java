@@ -69,6 +69,7 @@ public class Latihan3 extends javax.swing.JFrame {
         getContentPane().add(jLabel5);
         jLabel5.setBounds(160, 150, 70, 17);
 
+        Kali.setBackground(new java.awt.Color(153, 153, 153));
         Kali.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         Kali.setText("X");
         Kali.addActionListener(new java.awt.event.ActionListener() {
@@ -79,6 +80,7 @@ public class Latihan3 extends javax.swing.JFrame {
         getContentPane().add(Kali);
         Kali.setBounds(90, 170, 50, 40);
 
+        Bagi.setBackground(new java.awt.Color(153, 153, 153));
         Bagi.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         Bagi.setText(":");
         Bagi.addActionListener(new java.awt.event.ActionListener() {
@@ -89,6 +91,7 @@ public class Latihan3 extends javax.swing.JFrame {
         getContentPane().add(Bagi);
         Bagi.setBounds(150, 170, 50, 40);
 
+        Tambah.setBackground(new java.awt.Color(153, 153, 153));
         Tambah.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         Tambah.setText("+");
         Tambah.addActionListener(new java.awt.event.ActionListener() {
@@ -99,6 +102,7 @@ public class Latihan3 extends javax.swing.JFrame {
         getContentPane().add(Tambah);
         Tambah.setBounds(210, 170, 50, 40);
 
+        Kurang.setBackground(new java.awt.Color(153, 153, 153));
         Kurang.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         Kurang.setText("-");
         Kurang.addActionListener(new java.awt.event.ActionListener() {
@@ -113,6 +117,12 @@ public class Latihan3 extends javax.swing.JFrame {
         jLabel6.setText("Hasil");
         getContentPane().add(jLabel6);
         jLabel6.setBounds(190, 220, 60, 30);
+
+        Hasil.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                HasilActionPerformed(evt);
+            }
+        });
         getContentPane().add(Hasil);
         Hasil.setBounds(90, 250, 230, 60);
 
@@ -150,6 +160,10 @@ public class Latihan3 extends javax.swing.JFrame {
         int hasil4 = bil1 - bil2;
         Hasil.setText(String.valueOf(hasil4));
     }//GEN-LAST:event_KurangActionPerformed
+
+    private void HasilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_HasilActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_HasilActionPerformed
 
     /**
      * @param args the command line arguments

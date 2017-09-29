@@ -101,9 +101,23 @@ public class Kuis1 extends javax.swing.JFrame {
         String nama = Nama.getText();
         String absen = Absen.getText();
         String matpel = Matpel.getText();
-        String nilai = Nilai.getText();
+        int nilai = Integer.parseInt(Nilai.getText());
+        String KET_NILAI="";
         
-        TA.setText("Nama siswa:"+nama+"\nAbsen: "+absen+"\nMatpel: "+matpel+"\nNilai: "+nilai);
+        if ((nilai>101)){
+            KET_NILAI="Amazing";
+        }
+        if ((nilai>99) && (nilai<102)){
+            KET_NILAI="Sempurna";
+        }
+        if ((nilai>74) && (nilai<100)){
+            KET_NILAI="Lulus";
+        }
+        else if ((nilai<75)){
+            KET_NILAI="Tidak Lulus";
+        }
+        
+        TA.setText("Nama siswa:"+nama+"\nAbsen: "+absen+"\nMatpel: "+matpel+"\nNilai: "+nilai+"\nKeterangan: "+KET_NILAI);
     }//GEN-LAST:event_OKActionPerformed
 
     /**

@@ -100,6 +100,9 @@
     </Component>
     <Component class="javax.swing.JRadioButton" name="rpl">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="99" red="99" type="rgb"/>
+        </Property>
         <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
           <ComponentRef name="buttonGroup9"/>
         </Property>
@@ -113,6 +116,9 @@
     </Component>
     <Component class="javax.swing.JRadioButton" name="tkj">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="99" red="99" type="rgb"/>
+        </Property>
         <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
           <ComponentRef name="buttonGroup9"/>
         </Property>
@@ -139,6 +145,9 @@
     </Component>
     <Component class="javax.swing.JCheckBox" name="cb1">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="99" red="99" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Programing"/>
       </Properties>
       <Constraints>
@@ -149,6 +158,9 @@
     </Component>
     <Component class="javax.swing.JCheckBox" name="cb2">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="99" red="99" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Animator"/>
       </Properties>
       <Constraints>
@@ -159,6 +171,9 @@
     </Component>
     <Component class="javax.swing.JCheckBox" name="cb3">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="99" red="99" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Teknisi"/>
       </Properties>
       <Constraints>
@@ -169,6 +184,9 @@
     </Component>
     <Component class="javax.swing.JCheckBox" name="cb4">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="99" red="99" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Designer"/>
       </Properties>
       <Constraints>
@@ -252,7 +270,7 @@
     <Container class="javax.swing.JPanel" name="jPanel2">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="99" green="ff" red="99" type="rgb"/>
+          <Color blue="ff" green="ff" red="0" type="rgb"/>
         </Property>
       </Properties>
       <Constraints>

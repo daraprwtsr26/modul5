@@ -75,11 +75,13 @@ public class Latihan4 extends javax.swing.JFrame {
         getContentPane().add(jLabel4);
         jLabel4.setBounds(30, 140, 70, 17);
 
+        rpl.setBackground(new java.awt.Color(153, 153, 255));
         buttonGroup9.add(rpl);
         rpl.setText("RPL");
         getContentPane().add(rpl);
         rpl.setBounds(100, 140, 70, 23);
 
+        tkj.setBackground(new java.awt.Color(153, 153, 255));
         buttonGroup9.add(tkj);
         tkj.setText("TKJ");
         getContentPane().add(tkj);
@@ -90,18 +92,22 @@ public class Latihan4 extends javax.swing.JFrame {
         getContentPane().add(jLabel5);
         jLabel5.setBounds(30, 170, 50, 17);
 
+        cb1.setBackground(new java.awt.Color(153, 153, 255));
         cb1.setText("Programing");
         getContentPane().add(cb1);
         cb1.setBounds(100, 170, 100, 23);
 
+        cb2.setBackground(new java.awt.Color(153, 153, 255));
         cb2.setText("Animator");
         getContentPane().add(cb2);
         cb2.setBounds(100, 190, 100, 23);
 
+        cb3.setBackground(new java.awt.Color(153, 153, 255));
         cb3.setText("Teknisi");
         getContentPane().add(cb3);
         cb3.setBounds(210, 170, 90, 23);
 
+        cb4.setBackground(new java.awt.Color(153, 153, 255));
         cb4.setText("Designer");
         getContentPane().add(cb4);
         cb4.setBounds(210, 190, 90, 23);
@@ -145,7 +151,7 @@ public class Latihan4 extends javax.swing.JFrame {
         getContentPane().add(Exit);
         Exit.setBounds(240, 220, 70, 23);
 
-        jPanel2.setBackground(new java.awt.Color(153, 255, 153));
+        jPanel2.setBackground(new java.awt.Color(0, 255, 255));
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
